@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Layouts</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="header">
+            <h1>Responsive Web Layout</h1>
+            <nav class="navigation">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+
+        <div class="container">
+            <main class="main-content">
+                <h2>Main Content Area</h2>
+                <p>This section is laid out using a combination of **CSS Grid** and **Flexbox** to demonstrate a responsive design that adapts to different screen sizes. The main content and sidebar form a two-column grid on larger screens and stack vertically on smaller screens.</p>
+            
+                <div class="card-container">
+                    <div class="card">
+                        <h3>Card 1 (Flexbox)</h3>
+                        <p>This card is part of a Flexbox layout, which is perfect for arranging items in a single row or column. As you change the screen size, these cards will wrap to the next line to fit the available space.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Card 2 (Flexbox)</h3>
+                        <p>Flexbox allows for easy alignment and distribution of space among items, ensuring a clean and organized look.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Card 3 (Flexbox)</h3>
+                        <p>Flexbox is a one-dimensional layout method, meaning it arranges content as either a row or a column.</p>
+                    </div>
+                </div>
+            </main>
+
+            <aside class="sidebar">
+                <h2>Sidebar</h2>
+                <p>The sidebar's position is managed by the CSS Grid. On desktops, it's next to the main content, but on mobile, it moves below the content to optimize for vertical scrolling.</p>
+            </aside>
+        </div>
+
+        <footer class="footer">
+            <p>Built with Flexbox and CSS Grid | &copy; 2024</p>
+        </footer>
+    </body>
+</html>
